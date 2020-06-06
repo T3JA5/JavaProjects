@@ -1,0 +1,1 @@
+{"firstName":"Rack","lastName":"Jackon","address":{"streetAddress":"126","city":"San Jone","postalCode":"394221","state":"CA"},"gender":"man","age":24,"phoneNumbers":[{"number":"7383627627","type":"home"}]}
