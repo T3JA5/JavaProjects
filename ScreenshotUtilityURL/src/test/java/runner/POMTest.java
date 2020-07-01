@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 
 import screenshot.TakeScreenshot;
 
-public class POMTest {
+public class POMTest extends TakeScreenshot {
 	
 	@Test
 	public void pomTest() {
 		
 		String url = "https://www.google.com/";
 		String filePath = "E:\\Automation\\Screenshots\\";
-		String fileType = ".png";
+		String fileType = ".pdf";
 		
 		// Calling utility
-		TakeScreenshot.screenshot(url, fileType, filePath);
+		screenshot(url, fileType, filePath);
 		
 		System.out.println("Screenshot took for " + url + "and saved successfully to " + filePath);	
 	}
